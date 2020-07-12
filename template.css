@@ -1,0 +1,111 @@
+* {
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fc7600;
+  font-weight: bold;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  height: 765px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.form {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+  width: 585px;
+  height: 575px;
+  background-color: white;
+  align-items: center;
+}
+.cad {
+  display: flex;
+  align-self: flex-start;
+  position: absolute;
+  left: 44%;
+  font-family: arial;
+  height: auto;
+  width: auto;
+  color: #fc7600;
+  text-shadow: 0px 1px 0px black;
+  font-size: 13px;
+}
+.textarea {
+  width: 100px;
+  margin-top: 10px;
+  font-family: arial;
+  color: black;
+  padding: 32px;
+}
+input::placeholder {
+  padding: 5px;
+}
+input[type="text"] {
+  width: 471px;
+  padding: 3% 10%;
+  margin-top: 4%;
+  border-radius: 25px;
+  border: 2px solid grey;
+}
+input[type="password"] {
+  width: 471px;
+  padding: 3% 10%;
+  border-radius: 25px;
+  border: 2px solid grey;
+}
+input[type="tel"] {
+  width: 225px;
+  border-radius: 25px;
+  border: 2px solid grey;
+}
+input[type="cep"] {
+  width: 222px;
+  margin-left: 20px;
+  border-radius: 25px;
+  border: 2px solid grey;
+}
+.side {
+  display: flex;
+
+  justify-content: space-between;
+}
+.txtend {
+  display: flex;
+
+  justify-content: space-between;
+}
+input[type="checkbox"] {
+  display: flex;
+  justify-self: start;
+  margin: auto;
+  background-color: red;
+}
+.enviar {
+  display: flex;
+  position: absolute;
+  left: 44%;
+  font-family: arial;
+  color: white;
+  background-color: blue;
+  padding: 10px;
+  border-radius: 25px;
+  width: 200px;
+  justify-content: center;
+  margin-top: 20px;
+  text-shadow: 0px 2px 0px black;
+  font-size: 13px;
+}
+
+.enviar a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.enviar a:hover {
+  text-decoration: underline;
+  color: white;
+  text-transform: uppercase;
+}
